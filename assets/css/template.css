@@ -1,0 +1,86 @@
+body{
+    margin:0;
+}
+.topo{
+    margin-top: 50px;
+    height: 100px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.logo{
+    position: absolute;
+    left: 35%;
+}
+.menu{
+    height: 50px;
+    background-color: #FFF;
+    margin-top: 20px;
+}
+.menuint{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.menu li:hover {
+    background-color: #FFF;
+}
+.menu a{
+    color: #000;
+}
+.container{
+    min-height: 300px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #FFF;
+}
+.rodape{
+    height: 100px;
+    background-color: #DDD;
+}
+.produto{
+    width: 180px;
+    height: 230px;
+    background-color: #FFF;
+    float: left;
+    text-align: center;
+    margin: 10px;
+}
+.produto_foto{
+    width: 300px;
+    height: 300px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+.produto_info{
+    float: left;
+}
+.contato[type=text],.contato[type=email],.contato textarea{
+    width: 400px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    font-size: 13px;
+}
+.contato textarea{
+    height: 200px;
+}
+.carrinho{
+    width: 100px;
+    height: 50px;
+    float: right;
+}
